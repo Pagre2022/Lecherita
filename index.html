@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <link rel="icon" href="Lec.png">
+        <meta charset="UTF-8">
+        <title>Lecherita</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="menu">
+                <p>Lecherita</p>
+              <nav>
+                <a href="">Quienes somos</a>
+                <a href="">Productos</a>
+              </nav>
+            </div>
+
+            <div class="principal">
+                <h1>Lecherita</h1>
+                <h2>Comer es estar vivo</h2>
+            </div>
+        </header>
+
+
+
+        <section>
+            <div class="contenedor">
+                <h3>Productos mas vendidos</h3>
+                    <div class="owl-carousel">
+                        <div> 
+                            <h4>Bolitas de coco con leche</h4>
+                            <img src="a.png">
+                            <p class="as">$</p>
+                        </div>   
+
+                        <div>
+                            <h4>Bolitas de leche</h4>
+                            <img src="c.png">
+                            <p class="osea">$</p>
+                        </div>  
+
+                        <div>
+                           <h4>Batido de chocolate</h4>
+                            <img class="ima" src="y.png">
+                            <p class="esf">$</p>
+                        </div>
+
+                        <div>
+                            <h4>Batido de fresa</h4>
+                            <img src="ay.png">
+                            <p>$</p>
+                        </div>   
+                        <div>
+                            <div class="h4"><h4></h4></div>
+                            <img src="">
+                            <p>$</p>
+                        </div>           
+                    </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="contenido">
+                <P>Podes ponerte en contacto con nosotros a travez de nuestras redes</P>
+                <a href="">Facebook</a>
+                <a href="">instagram</a>
+            </div>
+        </section>
+        
+        <script src="owlcarousel/jquey.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+        </script>
+    </body>
+
+
+</html>
+
+
+
+
+
